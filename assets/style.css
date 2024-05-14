@@ -1,0 +1,181 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+body {
+  z-index: 1;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
+
+.introduction {
+  color: white;
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+}
+
+.introheading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.introh1,
+.skillh1 {
+  color: white;
+}
+
+.introtextcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introtext {
+  font-size: xx-large;
+}
+
+body {
+  background-image: url(images/Untitled.png);
+}
+
+.skills {
+  height: 75vh;
+  padding-top: 200px;
+}
+
+.skillheading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: white;
+}
+
+.box2 {
+  margin-top: 20px;
+}
+
+.col-img {
+  display: none;
+}
+
+.skillbox:hover .col-img {
+  display: block;
+}
+
+.skillbox:hover .mod-img {
+  display: none;
+}
+
+.hobbyheader {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.hobbies {
+  height: 75vh;
+  margin-top: 300px;
+}
+
+p {
+  color: #e4e8e7;
+}
+
+.badmintonimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tennis {
+  margin-top: 50px;
+}
+
+.tennisimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.badmintontext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tennistext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gaming {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.gamingtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gamingimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socials {
+  margin-top: 400px;
+}
+
+.tiktok,
+.youtube,
+.X {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.socialbox:hover .col-img {
+  display: block;
+}
+
+.skillbox:hover .mod-img {
+  display: none;
+}
+
+.image {
+  border: 1px solid grey;
+}
